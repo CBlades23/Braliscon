@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--FUENTES DE LETRAS PARA TITULOS Y SUBTITULOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+    <!--FUENTES DE LETRAS PARA contenido-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;1,200&display=swap" rel="stylesheet">
+
+    <!--Enlazar documentos-->
+    <link rel="stylesheet" href="build/css/app.css">
+    <script defer src="build/js/menu.js"></script>
+
+    <title>Braliscon</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor-header">
+
+            <div class="contenido-header">
+
+                <nav class="navegacion">
+                    <a href="#" class="titulo__header navegacion__link">Braliscon</a>
+                        <!--TOGGLE-->
+
+                    <button class="navegacion__toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-apple-arcade" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="12" cy="5" r="2" />
+                            <path d="M20 12.5v4.75a0.734 .734 0 0 1 -.055 .325a0.704 .704 0 0 1 -.348 .366l-5.462 2.58a4.998 4.998 0 0 1 -4.27 0l-5.462 -2.58a0.705 .705 0 0 1 -.401 -.691l-.002 -4.75" />
+                            <path d="M4.431 12.216l5.634 -2.332a5.065 5.065 0 0 1 3.87 0l5.634 2.332a0.692 .692 0 0 1 .028 1.269l-5.462 2.543a5.064 5.064 0 0 1 -4.27 0l-5.462 -2.543a0.691 .691 0 0 1 .028 -1.27z" />
+                            <line x1="12" y1="7" x2="12" y2="13" />
+                        </svg>
+                    </button>
+                    
+                    <ul class="navegacion__menu">
+                        <li class="navegacion__menu__item">
+                            <a href="#presentaciones" class="navegacion__menu__enlace navegacion__link"> Presentaciones </a>
+                        </li>
+                        <li class="navegacion__menu__item">
+                            <a href="#galeria" class="navegacion__menu__enlace navegacion__link"> Galeria </a>
+                        </li>
+                        <li class="navegacion__menu__item">
+                            <a href="#boletos" class="navegacion__menu__enlace navegacion__link"> Boletos </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="frase">
+        <div class="contenedor-frase">
+            <p class="frase-header">Bienvenidos al evento gamer más importante del mundo. Adentrate a un mundo lleno de aventuras.</p>
+        </div>
+    </section>
+
+    <section  class="contenido-principal">
+        <div class="secciones contenedor">
+            
+            <video autoplay muted loop>
+                <source class="video-seccion1" src="video/seccion1.mp4" type="video/mp4">
+                <source class="video-seccion1" src="video/seccion1.ogg" type="video/ogg">
+                <source class="video-seccion1" src="video/seccion1.webm" type="video/webm">
+            </video>
+
+            <div class="descripcion">
+
+                <p class="texto-pregunta">
+                    ¿De que trata la <span>braliscon?<span> 
+                </p>
+                
+                <p class="texto-descripcion">
+                    Duis sed odio ut ipsum scelerisque consectetur id at urna. Sed non turpis pellentesque, dapibus massa ut, facilisis lectus. Nam tempus, risus sed hendrerit congue, massa nibh rhoncus tortor, sit amet condimentum enim mauris ut mi. Aliquam sit amet risus est. Praesent eget ipsum laoreet, o commodo odio non, faucibus dui. Quisque porta iaculis massa, eget  in elementum turpis ultrices iaculis. Curabitur eu magna sit amet mi tempor egestas. Proin vehicula tincidunt nibh id eleifend.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="presentaciones" class="escenarios">
+
+        <h2 class="titulo-escenarios">Presentaciones</h2>
+
+        <p class="dia"> Noviembre 12 </p>
+
+        <div class="escenario-contenedor contenedor">
+            <div class="escenario pacMan fondo">
+
+                <p class="nombre-escenario">Escenario Gaming</p>
+
+                <ul class="calendario">
+                    <li>
+                        3:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        5:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        7:00 PM | <span> Sed tempus </span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--ESCENARIO COSPLAY-->
+            <div class="escenario cosplayer fondo">
+
+                <p class="nombre-escenario">Escenario Cosplays</p>
+
+                <ul class="calendario">
+                    <li>
+                        3:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        5:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        7:00 PM | <span> Sed tempus </span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--ESCENARIO ANIME/MANGA-->
+            <div class="escenario anime fondo">
+
+                <p class="nombre-escenario">Escenario Anime/Manga</p>
+
+                <ul class="calendario">
+                    <li>
+                        3:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        5:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        7:00 PM | <span> Sed tempus </span>
+                    </li>
+                </ul>
+            </div>        
+        </div><!--ESCENARIO CONTENEDOR-->
+
+        <!--SEGUNDO DÍA-->
+
+        <p class="dia"> Noviembre 13 </p>
+
+        <div class="escenario-contenedor contenedor">
+            <div class="escenario pacMan fondo">
+
+                <p class="nombre-escenario">Escenario Gaming</p>
+
+                <ul class="calendario">
+                    <li>
+                        3:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        5:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        7:00 PM | <span> Sed tempus </span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--ESCENARIO COSPLAY-->
+            <div class="escenario cosplayer fondo">
+
+                <p class="nombre-escenario">Escenario Cosplays</p>
+
+                <ul class="calendario">
+                    <li>
+                        3:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        5:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        7:00 PM | <span> Sed tempus </span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--ESCENARIO ANIME/MANGA-->
+            <div class="escenario anime fondo">
+
+                <p class="nombre-escenario">Escenario Anime/Manga</p>
+
+                <ul class="calendario">
+                    <li>
+                        3:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        5:00 PM | <span> Sed tempus </span>
+                    </li>
+                    <li>
+                        7:00 PM | <span> Sed tempus </span>
+                    </li>
+                </ul>
+            </div>     
+        </div><!--ESCENARIO CONTENEDOR-->
+    </section>
+
+    <section id="galeria" class=" galeria fondo">
+        <div class="contenedor">
+
+            <h2 class="titulo-galeria">Galeria de fotos</h2>
+
+            <ul class="galeria-imagenes"></ul>
+        </div>
+    </section>
+
+    <section id="boletos" class=" boletos">
+
+        <h2 class="titulo-boletos">Boletos</h2>
+
+        <div class="contenedor contenedor-boletos">
+            <div class="normal pase">
+                <p class="titulo-pase">Pase ONE</p>
+    
+                <header class="pase-header">
+                    <p>Beneficios</p>
+                </header>
+    
+                <div class="pase-body">
+                    <ul>
+                        <li>
+                            Acceso 1 día.
+                        </li>
+                        <li>
+                            Stands interactivos gratuitos.
+                        </li>
+                        <li>
+                            1 combo de comida con bebida.
+                        </li>
+                        <li>
+                            Acceso a todos los escenarios (formando la cola normal).
+                        </li>
+                        <li>
+                            Derecho a descuento del 25% en el primer artículo que compre dentro del evento.
+                        </li>
+                    </ul>
+                </div>
+    
+                <footer class="pase-footer">
+                    <p>$30</p>
+                </footer>
+            </div>
+    
+            <div class="vip pase">
+                <p class="titulo-pase">Pase VIP</p>
+    
+                <header class="pase-header">
+                    <p>Beneficios</p>
+                </header>
+    
+                <div class="pase-body">
+                    <ul>
+                        <li>
+                            Acceso 2 días siendo VIP.
+                        </li>
+                        <li>
+                            Stands interactivos gratuitos.
+                        </li>
+                        <li>
+                            2 combo de comida con bebida .
+                        </li>
+                        <li>
+                            Acceso a todos los escenarios (formando cola VIP - <span>más rápida</span>).
+                        </li>
+                        <li>
+                            Derecho a descuento del 35% en el primer artículo que compre dentro del evento.
+                        </li>
+                    </ul>
+                </div>
+    
+                <footer class="pase-footer">
+                    <p>$40</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p> <span> Braliscon </span> <br> Todos los derechos reservados. </p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+</body>
+</html>
